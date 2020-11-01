@@ -1,0 +1,6 @@
+[simulation]
+command = "./sim-lola -f -n -c ../../data/noisytest/conf/earlyHeelContactBoard.conf -e 10 -p 1"
+
+[data]
+chunk_ranges = [[6.97, 7.15], [7.28, 7.4], [8.06, 8.18]]
+chunk_labels = ["impact", "highaccelerations", "impact"]

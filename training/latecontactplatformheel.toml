@@ -1,0 +1,6 @@
+[simulation]
+command = "./sim-lola -f -n -c ../../data/noisytest/conf/lateContactPlatformHeel.conf -p 1"
+
+[data]
+chunk_ranges = [[6.677, 6.71], [7.27, 7.34], [7.58, 7.72], [8.35, 8.42], [8.96, 9.0]]
+chunk_labels = ["oscillations", "highaccelerations", "highaccelerations", "highaccelerations", "oscillations"]

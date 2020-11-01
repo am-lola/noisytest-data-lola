@@ -1,0 +1,6 @@
+[simulation]
+command = "./sim-lola -f -n -c ../../data/noisytest/conf/fixedSequenceCurve.conf -e 10"
+
+[data]
+chunk_ranges = [[4.0, -1.0]]
+chunk_labels = ["ok"]

@@ -1,0 +1,7 @@
+[simulation]
+command = "./sim-lola -f -n -c ../../data/noisytest/conf/std.conf -p 1"
+note = "hard coded joint sensor delta in sfr (-0.05 rad)"
+
+[data]
+chunk_ranges = [[1.7, 1.85], [2.68, 2.78], [3.3, 3.534], [4.288, 4.34], [4.9, 5.1], [5.89, 5.93], [6.51, 6.69], [7.49, 7.52], [8.10, 8.25], [9.08, 9.13], [9.7, 9.86]]
+chunk_labels = ["impact", "impact", "impact", "impact", "impact", "impact", "impact", "impact", "impact", "impact", "impact"]

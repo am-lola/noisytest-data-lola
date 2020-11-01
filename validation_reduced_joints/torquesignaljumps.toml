@@ -1,0 +1,7 @@
+[simulation]
+command = "./sim-lola -f -n -c ../../data/noisytest/conf/forceControlHighGain.conf -p 1"
+note = "simulated jump in right foot's Tx torque by 30Nm (towards lower torques)."
+
+[data]
+chunk_ranges = [[2.08, 2.14], [2.291, 2.322], [3.697, 3.715], [3.896, 3.926], [5.298, 5.316], [5.497, 5.514], [6.897, 6.914], [7.097, 7.112], [8.495, 8.512], [8.696, 8.708]]
+chunk_labels = ["highaccelerations", "highaccelerations", "highaccelerations", "highaccelerations", "highaccelerations", "highaccelerations", "highaccelerations", "highaccelerations", "highaccelerations", "highaccelerations"]

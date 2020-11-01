@@ -1,0 +1,6 @@
+[simulation]
+command = "./sim-lola -f -n -c ../../data/noisytest/conf/excitation100_150.conf -p 1 -e 5.0"
+
+[data]
+chunk_ranges = [[2.1, 3.0]]
+chunk_labels = ["oscillations"]

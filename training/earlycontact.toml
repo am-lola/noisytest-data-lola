@@ -1,0 +1,6 @@
+[simulation]
+command = "./sim-lola -f -n -c ../../data/noisytest/conf/earlyContactBoard.conf -e 10"
+
+[data]
+chunk_ranges = [[2.0, 6.0], [6.97, 7.15], [7.5, 8.08], [8.09, 8.19]]
+chunk_labels = ["ok", "impact", "ok", "impact"]

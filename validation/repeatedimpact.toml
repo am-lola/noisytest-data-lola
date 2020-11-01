@@ -1,0 +1,6 @@
+[simulation]
+command = "./sim-lola -f -n -c ../../data/noisytest/conf/repeatedEarlyContactPertubated.conf -p 1 -e 15"
+
+[data]
+chunk_ranges = [[6.67, 6.73], [7.87, 7.92], [8.47, 8.515], [9.67, 9.74], [10.273, 10.32], [12.08, 12.16], [12.93, 13.03]]
+chunk_labels = ["impact", "impact", "impact", "impact", "impact", "impact", "impact"]
