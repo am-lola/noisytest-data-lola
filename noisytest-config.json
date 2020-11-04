@@ -1,0 +1,23 @@
+{
+  "import_preprocessor": {
+    "arguments": {
+      "keywords_to_target_data": {
+        "ok": 0,
+        "impact": 1,
+        "highaccelerations": 2,
+        "oscillations": 3
+      }
+    }
+  },
+  "model": {
+    "arguments": {
+      "regularization": 1.1,
+      "kernel_gamma": 5.7e-04
+    }
+  },
+  "feature_preprocessor": {
+    "arguments": {
+      "fft_stride_length": 834
+    }
+  }
+}
